@@ -7,7 +7,7 @@ namespace OasisVault
 {
     public class OasisPlugin : RocketPlugin<OasisConfiguration>
     {
-        public static string version = "1.0.0.2";
+        public static string version = "1.0.0.3";
         public static OasisPlugin Instance;
 
         public override TranslationList DefaultTranslations
@@ -16,10 +16,10 @@ namespace OasisVault
             {
                 return new TranslationList
                 {
-                    { "vault_not_enabled", "[Oasis] Vault není aktivovaný." },
-                    { "vault_cooldown", "[Oasis] Vault můžeš použít zase za {0} sekundy." },
-                    { "vault_no_permissions", "[Oasis] Nemáš oprávnění na tento příkaz." },
-                    { "vault_opened", "[Oasis] Vault byl otevřen." }
+                    { "vault_not_enabled", "[Oasis] Vault is not enabled." },
+                    { "vault_cooldown", "[Oasis] You can use Vault again in {0} seconds." },
+                    { "vault_no_permissions", "[Oasis] You do not have permission for this command." },
+                    { "vault_opened", "[Oasis] Vault has been opened." }
                 };
             }
         }
